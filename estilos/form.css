@@ -1,0 +1,84 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+.login-page {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.login-titulo {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.voltar-link {
+  display: inline-block;
+  margin-bottom: 15px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.voltar-link:hover {
+  text-decoration: underline;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form-box {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-form {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.btn-form {
+  padding: 12px;
+  background-color: #f60056;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-form:hover {
+  background-color: #c31152;
+}
+
+.opcoes-login {
+  margin-top: 30px;
+}
+
+.subtitulo-login {
+  margin: 10px 0 5px;
+}
+
+.link-login {
+  display: inline-block;
+  color: #007bff;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.link-login:hover {
+  text-decoration: underline;
+}
