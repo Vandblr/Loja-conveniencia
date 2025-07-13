@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-family: sans-serif;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.btn-carrinho {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-carrinho:hover {
+  background-color: darkgreen;
+}
+
+.tabela-produtos {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tabela-produtos thead {
+  background-color: #0fdfd4;
+  color: white;
+}
+
+.tabela-produtos th,
+.tabela-produtos td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.tabela-produtos tr:last-child td {
+  border-bottom: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 30px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.titulo {
+  margin-bottom: 20px;
+}
+
+.pagina-carrinho {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.tabela-carrinho {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.tabela-carrinho th,
+.tabela-carrinho td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.input-qtd {
+  width: 40px;
+}
+
+.btn-finalizar {
+  display: inline-block;
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-finalizar:hover {
+  background-color: darkgreen;
+}
+
+.links-voltar a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.links-voltar a:hover {
+  text-decoration: underline;
+}

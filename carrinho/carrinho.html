@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css/style.css">
+    <title>Carrinho de compras</title>
+</head>
+<body>
+
+  <div class="pagina-carrinho">
+
+    <h1 class="titulo">🛒 Carrinho de Compras</h1>
+    <p>Revise os produtos selecionados e defina as quantidades:</p>
+
+    <div class="form-carrinho">
+      <form action="#" method="post">
+        <table class="tabela-carrinho">
+          <thead>
+            <tr>
+              <th>Selecionar</th>
+              <th>Produto</th>
+              <th>Categoria</th>
+              <th>Preço</th>
+              <th>Quantidade</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><input type="checkbox" name="produto1" checked></td>
+              <td>🥤 Refrigerante Coca-Cola (2L)</td>
+              <td>Bebida</td>
+              <td>R$ 10,00</td>
+              <td><input type="number" name="qtd1" value="1" min="1" class="input-qtd"></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="produto5" checked></td>
+              <td>🍺 Cerveja Original (600ml)</td>
+              <td>Bebida alcoólica</td>
+              <td>R$ 8,00</td>
+              <td><input type="number" name="qtd5" value="1" min="1" class="input-qtd"></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" name="produto3"></td>
+              <td>🍿 Salgadinho Doritos (90g)</td>
+              <td>Snack</td>
+              <td>R$ 6,00</td>
+              <td><input type="number" name="qtd3" value="1" min="1" class="input-qtd"></td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </div>
+
+    <h2>💳 Finalizar Compra</h2>
+    <p>Escolha a forma de pagamento:</p>
+
+    <div class="form-pagamento">
+      <form action="#" method="post">
+        <label><input type="radio" name="pagamento" value="cartao" required> Cartão de Crédito</label><br>
+        <label><input type="radio" name="pagamento" value="pix"> PIX</label><br>
+        <label><input type="radio" name="pagamento" value="boleto"> Boleto Bancário</label><br><br>
+
+        <label for="obs">Observações (opcional):</label><br>
+        <textarea id="obs" name="obs" rows="3" cols="30"></textarea><br><br>
+
+        <a href="../pedido/realizadocomsucesso.html" class="btn-finalizar">Finalizar Pedido</a>
+      </form>
+    </div>
+
+    <div class="links-voltar">
+      <a href="../carrinho/carrinho.html">← Voltar para o carrinho</a><br>
+      <a href="../produtos/produtos.html">← Voltar à loja</a>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
